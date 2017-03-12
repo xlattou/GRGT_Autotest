@@ -1,0 +1,46 @@
+#if !defined(AFX_FRAME_UUTBASICINFO_H__D239CF3F_7BD7_4251_B084_A005EDF68F8F__INCLUDED_)
+#define AFX_FRAME_UUTBASICINFO_H__D239CF3F_7BD7_4251_B084_A005EDF68F8F__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+// Frame_UUTBasicInfo.h : header file
+//
+
+/////////////////////////////////////////////////////////////////////////////
+// CFrame_UUTBasicInfo dialog
+
+class CFrame_UUTBasicInfo : public CDialog
+{
+// Construction
+public:
+	CFrame_UUTBasicInfo(CWnd* pParent = NULL);   // standard constructor
+
+// Dialog Data
+	//{{AFX_DATA(CFrame_UUTBasicInfo)
+	enum { IDD = IDD_DIALOG_UUTBASICINFO };
+		// NOTE: the ClassWizard will add data members here
+	//}}AFX_DATA
+
+
+// Overrides
+	// ClassWizard generated virtual function overrides
+	//{{AFX_VIRTUAL(CFrame_UUTBasicInfo)
+	protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+	//}}AFX_VIRTUAL
+
+// Implementation
+protected:
+
+	// Generated message map functions
+	//{{AFX_MSG(CFrame_UUTBasicInfo)
+		// NOTE: the ClassWizard will add member functions here
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+};
+
+//{{AFX_INSERT_LOCATION}}
+// Microsoft Visual C++ will insert additional declarations immediately before the previous line.
+
+#endif // !defined(AFX_FRAME_UUTBASICINFO_H__D239CF3F_7BD7_4251_B084_A005EDF68F8F__INCLUDED_)
